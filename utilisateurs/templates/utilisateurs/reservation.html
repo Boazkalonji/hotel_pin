@@ -1,0 +1,222 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+
+{% block titre %}
+
+    RESERVATION
+
+{% endblock %}
+
+
+
+{% block content %}
+
+
+    <section class="section">
+
+
+        <div class="container">
+
+            <h1 class="has-text-success has-text-centered is-size-3 has-text-weight-semibold my-5">
+                RESERVATION
+            </h1>
+
+            <form action="" method="post">
+
+                <fieldset class="is-size-5 has-text-weight-medium">
+                    INFORMATIONS SUR LE CLIENT
+                </fieldset>
+                <hr class="has-background-success">
+                <div class="control has-icons-left mb-5">
+
+                    <input required type="text" class="input has-background-white-bis " placeholder="Your name">
+
+                    <span class="icon is-medium is-left has-text-success">
+                        <i class="fas fa-user"></i>
+                    </span>
+
+                </div>
+
+                <div class="control has-icons-left mb-5">
+
+                    <input required type="text" class="input has-background-white-bis " placeholder="Your Email">
+
+                    <span class="icon is-medium is-left has-text-success">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+
+                </div>
+
+
+                <div class="control has-icons-left mb-5">
+
+                    <input required type="text" class="input has-background-white-bis " placeholder="Telephone">
+
+                    <span class="icon is-medium is-left has-text-success">
+                        <i class="fas fa-phone"></i>
+                    </span>
+
+                </div>
+
+                <fieldset class="is-size-5 has-text-weight-medium mb-3">
+                    INFORMATIONS SUR LE SEJOUR
+                </fieldset>
+                <hr class="has-background-success">
+                
+
+                
+                <div class="grid">
+                    <div class="cell">
+                        <div class="field ">
+                            <label for="" class="label ">Date arriver</label>
+        
+                            <div class="control has-icons-left">
+        
+                                <input required type="date" class=" input has-background-white-bis " placeholder="Date arriver">
+            
+                                <span class="icon is-medium is-left has-text-success">
+                                    <i class="fas fa-calendar"></i>
+                                </span>
+            
+                                
+                            </div>
+        
+                        </div>
+        
+                        
+                    </div>
+
+                    <div class="cell">
+                        <div class="field ">
+                            <label for="" class="label ">Date depart</label>
+        
+                            <div class="control has-icons-left">
+        
+                                <input required type="date" class=" input has-background-white-bis " placeholder="Date arriver">
+            
+                                <span class="icon is-medium is-left has-text-success">
+                                    <i class="fas fa-calendar"></i>
+                                </span>
+            
+                                
+                            </div>
+        
+                        </div>
+                    </div>
+
+
+                    <div class="cell">
+                        <div class="field ">
+                            <label for="" class="label ">Nombre personnes</label>
+        
+                            <div class="control has-icons-left">
+        
+                                <input required type="number" class="input has-background-white-bis " placeholder="0">
+            
+                                <span class="icon is-medium is-left has-text-success">
+                                    <i class="fas fa-users"></i>
+                                </span>
+            
+                                
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="grid">
+
+                    <div class="cell">
+                        <div class="field ">
+                            <label for="" class="label ">Nombre de chambre</label>
+        
+                            <div class="control has-icons-left">
+        
+                                <input required type="number" class="mb-3 input has-background-white-bis " placeholder="0">
+            
+                                <span class="icon is-medium is-left has-text-success">
+                                    <i class="fas fa-bed fas"></i>
+                                </span>
+            
+                                
+                            </div>
+        
+                        </div>
+                    </div>
+
+
+                    <div class="cell">
+                        <div class="field ">
+                            <label for="" class="label ">Mode payement</label>
+        
+                            <div class="control has-icons-left">    
+
+                                <select name="" id="" class=" input has-background-white-bis " >
+                                    <option value="m-pesa">
+                                        M-PESA
+                                    </option>
+                                    <option value="orange-money">
+                                        ORANGE-MONEY
+                                    </option>
+                                    <option value="afri-money">
+                                        AFRI-MONEY
+                                    </option>
+                                    <option value="airtel-money">
+                                        AIRTEL-MONEY
+                                    </option>
+                                </select>
+        
+            
+            
+                                
+            
+                                
+                            </div>
+        
+                        </div>
+                    </div>
+
+                    <div class="cell">
+                        <div class="field ">
+                            <label for="" class="label ">REGIME</label>
+        
+                            <div class="control has-icons-left">
+        
+                                <input required type="text" class="mb-3 input has-background-white-bis " placeholder="tape your regime">
+            
+                                <span class="icon is-medium is-left has-text-success">
+                                    <i class="fab fa-solid fa-food"></i>
+                                </span>
+            
+                                
+                            </div>
+        
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <input type="submit" class="has-text-centered button is-success has-text-white" value="Sing up">
+
+            </form>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+{% endblock %}

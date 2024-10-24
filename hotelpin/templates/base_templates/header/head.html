@@ -1,0 +1,116 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'base_css/node_modules/bulma/css/bulma.css' %}">
+    
+</head>
+
+
+<header class="">
+    <nav class="navbar is-fixed-top has-shadow is-transparentar">
+        <div class="navbar-brand">
+            <div class="navbar-item">
+                <a href="">
+                    <h1 class="is-size-4 has-text-danger has-text-weight-bold ">H<span class="has-text-dark">PIN</span></h1>
+                </a>
+            </div>
+            
+            <a role="button" class="navbar-burger has-text-primary" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+
+        </div>
+
+        <div class="navbar-menu" id="navMenu">
+            <ul class="navbar-end">
+                
+                <li class="navbar-item">
+                    <a href="" class="has-text-dark is-size-6 has-text-weight-semibold ">
+                        HOME
+                    </a>
+                </li>
+
+                <div class="navbar-item has-dropdown is-hoverable has-text-success">
+                    <a href="" class="navbar-link is-arrowless has-text-dark is-size-6 has-text-weight-semibold">
+                        SERVICES
+                    </a>
+                    
+                    <div class="navbar-dropdown">
+                        <a href="" class="navbar-item has-text-dark is-size-6 is-selected has-background-success">
+                            RESERVER UNE CHAMBRE
+                        </a>
+                        <hr class="navbar-divider has-text-success">
+                        <a href="" class="navbar-item has-text-dark is-size-6" >
+                            PAYEMENT
+                        </a>
+                        <hr class="navbar-divider has-text-success">
+                        <a href="" class="navbar-item has-text-dark is-size-6" >
+                            PROLONGEMENT SEJOUR
+                        </a>
+                        <hr class="navbar-divider has-text-success">
+                        <a href="" class="navbar-item has-text-dark is-size-6" >
+                            NUMERO RECEPTION
+                        </a>
+                    </div>
+
+                </div>
+
+                <li class="navbar-item">
+                    <a href="" class="has-text-dark is-size-6 has-text-weight-semibold">
+                        CONTACT
+                    </a>
+                </li>
+
+                
+
+                <div class="navbar-item has-dropdown is-hoverable has-text-success">
+                    <a href="" class="navbar-link is-arrowless has-text-dark is-size-6 has-text-weight-semibold">
+                        USER
+                    </a>
+                    
+                    <div class="navbar-dropdown">
+                        <a href="" class="navbar-item has-text-dark is-size-6 is-selected has-background-success">
+                            LOGIN
+                        </a>
+                        <hr class="navbar-divider has-text-success">
+                        <a href="" class="navbar-item has-text-dark is-size-6" >
+                            LOG OUT
+                        </a>
+                        <hr class="navbar-divider has-text-success">
+                        <a href="" class="navbar-item has-text-dark is-size-6" >
+                            UPDATE
+                        </a>
+                        <hr class="navbar-divider has-text-success">
+                        <a href="" class="navbar-item has-text-dark is-size-6" >
+                            VIEWS RESERVATION
+                        </a>
+                    </div>
+
+                </div>
+
+                <li class="navbar-item">
+                    <a href="" class="has-text-dark is-size-6 has-text-weight-semibold">
+                        A BOUT
+                    </a>
+                </li>
+
+                
+
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+  
+
+<script src="{% static 'base_js/head.js' %}"></script>
+</html>
